@@ -34,6 +34,6 @@ if __name__ == '__main__':
     for t in threadList:
         t.join()
 
-    print(f"\nThread Count: {threading.active_count()}")
+    print(f"\nThread Count: {threads.active_count()}")
 
     print(f"Done in {(time.time() - start)} seconds")
